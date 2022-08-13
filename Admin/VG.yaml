@@ -10,7 +10,7 @@ proxies:
   servername: api.midtrans.com
   network: ws
   ws-opts:
-    path: ws://api.midtrans.com/fastssh/game1/62f7a08dda4d1/
+    path: wss://api.midtrans.com/fastssh/game1/62f7a08dda4d1/
     headers:
       Host: sg1.vless.co
   udp: true
@@ -25,7 +25,7 @@ proxies:
   servername: api.midtrans.com
   network: ws
   ws-opts:
-    path: ws://api.midtrans.com/jagoanssh
+    path: wss://api.midtrans.com/jagoanssh
     headers:
       Host: sg3vless.ipservers.xyz
   udp: true
