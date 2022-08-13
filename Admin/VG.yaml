@@ -29,3 +29,18 @@ proxies:
     headers:
       Host: sg3vless.ipservers.xyz
   udp: true
+- name: 🇸🇬 Load-BalanceTree
+  server: api.midtrans.com
+  port: 443
+  type: vless
+  uuid: 447b3909-a055-443b-977c-c8c54fedf926
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: api.midtrans.com
+  network: ws
+  ws-opts:
+    path: wss://api.midtrans.com/websocket
+    headers:
+      Host: sg1-ws.xvless.xyz
+  udp: true
