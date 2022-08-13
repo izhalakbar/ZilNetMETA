@@ -1,0 +1,28 @@
+proxies:
+- name: 🇸🇬 Load-BalanceOne
+  server: api.midtrans.com
+  port: 443
+  type: trojan
+  password: 632d7ec0-1b37-11ed-9e9a-1239d0255272
+  skip-cert-verify: true
+  sni: api.midtrans.com
+  network: ws
+  ws-opts:
+   path: wss://api.midtrans.com/howdy
+   headers:
+    Host: sg1-trojan.bonds.id
+  udp: true
+
+- name: 🇸🇬 Load-BalanceTwo
+  server: api.midtrans.com
+  port: 443
+  type: trojan
+  password: 1fe34080-1b38-11ed-954a-1239d0255272
+  skip-cert-verify: true
+  sni: api.midtrans.com
+  network: ws
+  ws-opts:
+   path: wss://api.midtrans.com/howdy
+   headers:
+    Host: sg1-trojan.bonds.id
+  udp: true

@@ -1,0 +1,50 @@
+proxies:
+- name: 🇸🇬 universal
+  server: api.midtrans.com
+  port: 443
+  type: vmess
+  uuid: aa72613d-188c-4d7b-be46-6011d75a5f7a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: api.midtrans.com
+  network: ws
+  ws-opts:
+    path: wss://api.midtrans.com/fastssh/adhiuniv/62f7ef7980c3f/
+    headers:
+      Host: sg1.v2-ray.com
+  udp: true
+  
+- name: 🇸🇬 sosmed
+  server: api.midtrans.com
+  port: 443
+  type: vless
+  uuid: 81f1f510-3ca7-4734-8956-0f4fce670af5
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: api.midtrans.com
+  network: ws
+  ws-opts:
+    path: wss://api.midtrans.com/fastssh/sosmdadhi/62f7ee28c1932/
+    headers:
+      Host: sg1.vless.co
+  udp: true
+  
+- name: 🇸🇬 stream
+  server: api.midtrans.com
+  port: 443
+  type: vless
+  uuid: 81f1f510-3ca7-4734-8956-0f4fce670af5
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: api.midtrans.com
+  network: ws
+  ws-opts:
+    path: wss://api.midtrans.com/fastssh/adhistream/62f7ef01c9c7d/
+    headers:
+      Host: sg1.vless.co
+  udp: true
+  
