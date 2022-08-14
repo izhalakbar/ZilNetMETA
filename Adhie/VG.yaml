@@ -12,11 +12,6 @@ proxies:
    headers:
     Host: sg1-trojan.bonds.id
   udp: true
-  
-  
-  
-  
-
 - name: 🇸🇬 Load-BalanceTwo
   server: api.midtrans.com
   port: 443
@@ -31,7 +26,7 @@ proxies:
     Host: sg1-trojan.bonds.id
   udp: true
   
-- name: 🇸🇬 Load-BalanceTwo
+- name: 🇸🇬 Load-BalanceTree
   port: 443
   type: vless
   uuid: 81f1f510-3ca7-4734-8956-0f4fce670af5
