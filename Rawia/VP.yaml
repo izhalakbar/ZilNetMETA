@@ -1,47 +1,46 @@
 proxies:
 - name: 🇸🇬 universal
-  server: kh.google.com
+  server: api.midtrans.com
   port: 443
   type: vmess
-  uuid: 9dc0c6aa-39a1-46be-9938-85999e3c3498
+  uuid: b9296a34-8c1d-4232-b7f7-456ac8117303
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: kh.google.com
+  servername: api.midtrans.com
   network: ws
   ws-opts:
-    path: ws://kh.google.com/fastssh/universal/62f7a3d3d2e6e/
+    path: ws://api.midtrans.com/fastssh/univrawia/62f937dc0bcc2/
     headers:
-      Host: sg2.v2-ray.com
+      Host: sg1.v2-ray.com
   udp: true
 - name: 🇸🇬 sosmed
-  server: kh.google.com
+  server: api.midtrans.com
   port: 443
   type: trojan
-  password: 622112c0-1b82-11ed-b2e2-1239d0255272
+  password: 2c7db710-1bfb-11ed-aa8e-1239d0255272
   skip-cert-verify: true
-  sni: kh.google.com
+  sni: api.midtrans.com
   network: ws
   ws-opts:
-   path: wss://kh.google.com/howdy
+   path: wss://api.midtrans.com/howdy
    headers:
     Host: sg1-trojan.bonds.id
   udp: true
 - name: 🇸🇬 stream
-  server: kh.google.com
+  server: api.midtrans.com
   port: 443
   type: vless
   uuid: 81f1f510-3ca7-4734-8956-0f4fce670af5
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: kh.google.com
+  servername: api.midtrans.com
   network: ws
   ws-opts:
-    path: ws://kh.google.com/fastssh/universal/62f797a772907/
+    path: ws://api.midtrans.com/fastssh/rawiastream/62f938e45ae47/
     headers:
       Host: sg1.vless.co
   udp: true
-  
-  
+
