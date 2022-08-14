@@ -17,15 +17,12 @@ proxies:
 - name: 🇸🇬 Load-BalanceTwo
   server: api.midtrans.com
   port: 443
-  type: vless
-  uuid: 0052b0da-9d4d-48be-b729-0a5d53efc10d
-  cipher: auto
-  tls: true
+  type: trojan
+  password: 987e1446-a6bb-4ce1-8f9e-5ee25900b815
   skip-cert-verify: true
-  servername: api.midtrans.com
-  network: ws
-  ws-opts:
-    path: ws://api.midtrans.com/jagoanssh
-    headers:
-      Host: sg3vless.ipservers.xyz
+  sni: do2.kitu.xyz
+  network: grpc
+  grpc-opts:
+   grpc-mode: grpc
+   grpc-service-name: xray-trojan-grpc
   udp: true
