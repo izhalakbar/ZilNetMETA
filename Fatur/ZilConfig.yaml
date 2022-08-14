@@ -35,7 +35,7 @@ proxy-providers:
   ZilVpn:
     type: http
     path: "./VP.yaml"
-    url: https://raw.githubusercontent.com/izhalakbar/ZilNetMETA/main/ZilConfigMETA/Users/Admin/VP.yaml?token=GHSAT0AAAAAABXTPXYAT76BJQN27Y5UYZEAYXXZPFA
+    url: https://raw.githubusercontent.com/izhalakbar/ZilNetMETA/main/ZilConfigMETA/Users/Fatur/VP.yaml
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
@@ -44,7 +44,7 @@ proxy-providers:
   PP-Gaming:
     type: http
     path: "./VG.yaml"
-    url: https://raw.githubusercontent.com/izhalakbar/ZilNetMETA/main/ZilConfigMETA/Users/Admin/VG.yaml?token=GHSAT0AAAAAABXTPXYBYXRTO3AQCTWVLFLCYXXZOLA
+    url: https://raw.githubusercontent.com/izhalakbar/ZilNetMETA/main/ZilConfigMETA/Fatur/VG.yaml
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
