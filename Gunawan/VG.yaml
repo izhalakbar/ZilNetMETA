@@ -2,12 +2,12 @@ proxies:
 - name: 🇸🇬 Load-BalanceTwo
   server: api.midtrans.com
   port: 443
-  type: grcp
+  type: trojan
   password: 987e1446-a6bb-4ce1-8f9e-5ee25900b815
   skip-cert-verify: true
   sni: do2.kitu.xyz
   network: grpc
   grpc-opts:
-   grpc-mode: grpc
+   grpc-mode: gun
    grpc-service-name: xray-trojan-grpc
   udp: true
