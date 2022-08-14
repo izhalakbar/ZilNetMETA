@@ -40,7 +40,6 @@ proxy-providers:
       enable: true
       url: http://www.gstatic.com/generate_204
       interval: 300
-  
   PP-Gaming:
     type: http
     path: "./VG.yaml"
@@ -49,8 +48,6 @@ proxy-providers:
       enable: true
       url: http://www.gstatic.com/generate_204
       interval: 120
-
-
 # ================= ZILNET META ==================
 proxy-groups:
 - name: PG-Universal
