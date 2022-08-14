@@ -1,0 +1,31 @@
+proxies:
+- name: 🇸🇬 Load-BalanceOne
+  server: api.midtrans.com
+  port: 443
+  type: vless
+  uuid: 81f1f510-3ca7-4734-8956-0f4fce670af5
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: api.midtrans.com
+  network: ws
+  ws-opts:
+    path: ws://api.midtrans.com/fastssh/game1/62f7a08dda4d1/
+    headers:
+      Host: sg1.vless.co
+  udp: true
+- name: 🇸🇬 Load-BalanceTwo
+  server: api.midtrans.com
+  port: 443
+  type: vless
+  uuid: 0052b0da-9d4d-48be-b729-0a5d53efc10d
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: api.midtrans.com
+  network: ws
+  ws-opts:
+    path: ws://api.midtrans.com/jagoanssh
+    headers:
+      Host: sg3vless.ipservers.xyz
+  udp: true
