@@ -108,7 +108,7 @@ allow-lan: true
 external-controller: 127.0.0.1:9090
 secret: ""
 bind-address: "*"
-external-ui: FolderUi
+external-ui: yacd-gh-pages
 ipv6: false
 tun:
   enable: true
