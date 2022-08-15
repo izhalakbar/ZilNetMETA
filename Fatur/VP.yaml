@@ -1,6 +1,6 @@
 proxies:
 - name: 🇸🇬 universal
-  server: api.midtrans.com
+  server: 104.17.3.81
   port: 443
   type: vmess
   uuid: a9481600-ef36-402a-a0e5-5547bfd7b87c
@@ -16,7 +16,7 @@ proxies:
       Host: sg2.v2-ray.com
   udp: true
 - name: 🇸🇬 sosmed
-server: api.midtrans.com
+server: 104.17.3.81
   port: 443
   type: trojan
   password: 6866f2b0-1b8c-11ed-810d-1239d0255272
@@ -29,7 +29,7 @@ server: api.midtrans.com
     Host: sg2-trojan.bonds.id
   udp: true
 - name: 🇸🇬 stream
-  server: api.midtrans.com
+  server: 104.17.3.81
   port: 443
   type: vless
   uuid: 81f1f510-3ca7-4734-8956-0f4fce670af5
